@@ -1,24 +1,28 @@
-# Compliance Safety Dashboard
+# 🛡️ Compliance & Safety Dashboard
 
-A brief description of what this dashboard does, why it was built, and how it leverages the Gemini API to monitor compliance and safety.
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 
-## 🚀 Features
-* Feature 1 (e.g., Real-time safety monitoring)
-* Feature 2 (e.g., AI-driven compliance insights)
-* Feature 3 
+An AI-powered risk analysis dashboard designed to automate compliance auditing and identify safety hazards using the Google Gemini API. Built securely with the Next.js App Router.
 
-## 📸 Screenshots
-*(Add a screenshot of your dashboard here)*
+## ✨ Features
 
-## 🛠️ Tech Stack
-* **Frontend:** (e.g., React, Next.js)
-* **Backend:** Node.js
-* **AI:** Google Gemini API
+* **Automated Risk Analysis:** Instantly scans organizational safety logs to flag violations.
+* **AI-Generated Insights:** Leverages Gemini 1.5 Flash to summarize actionable recommendations.
+* **Modern UI:** Clean, responsive interface built with Tailwind CSS and Lucide Icons.
+* **Secure Backend:** API keys are safely hidden server-side using Next.js Route Handlers.
 
-## 💻 Run Locally
+## 🚀 Getting Started
 
-**Prerequisites:** Node.js installed on your machine.
+### Prerequisites
+Make sure you have Node.js installed and a valid Google Gemini API key.
 
-1. Clone the repository:
-   ```bash
+### Installation
+
+1. **Clone the repository:**
+```bash
    git clone [https://github.com/29shnick/Compliance-Safety-Dashboard.git](https://github.com/29shnick/Compliance-Safety-Dashboard.git)
+   cd Compliance-Safety-Dashboard
