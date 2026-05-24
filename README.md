@@ -1,18 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Compliance Safety Dashboard
 
+A brief description of what this dashboard does, why it was built, and how it leverages the Gemini API to monitor compliance and safety.
 
+## 🚀 Features
+* Feature 1 (e.g., Real-time safety monitoring)
+* Feature 2 (e.g., AI-driven compliance insights)
+* Feature 3 
 
-View your app in AI Studio: https://ai.studio/apps/8585742c-00f9-4e0d-9c0d-610a52f1ca82
+## 📸 Screenshots
+*(Add a screenshot of your dashboard here)*
 
-## Run Locally
+## 🛠️ Tech Stack
+* **Frontend:** (e.g., React, Next.js)
+* **Backend:** Node.js
+* **AI:** Google Gemini API
 
-**Prerequisites:**  Node.js
+## 💻 Run Locally
 
+**Prerequisites:** Node.js installed on your machine.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/29shnick/Compliance-Safety-Dashboard.git](https://github.com/29shnick/Compliance-Safety-Dashboard.git)
