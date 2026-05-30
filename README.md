@@ -1,3 +1,15 @@
+# Compliance Safety Dashboard 🛡️
+
+<div align="center">
+
+[![GitHub Codespaces](https://img.shields.io/badge/GitHub%20Codespaces-Compatible-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codespaces)
+[![Security](https://img.shields.io/badge/Security-Server--Side%20Keys-blueviolet?style=for-the-badge&logo=dependabot&logoColor=white)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+</div>
+
+An enterprise-grade compliance tracking dashboard built with modern security best practices.
+
 # 🛡️ Compliance & Safety Dashboard
 
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
