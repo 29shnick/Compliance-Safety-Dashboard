@@ -36,8 +36,26 @@ An AI-powered risk analysis dashboard designed to automate compliance auditing a
 * **AI-Generated Insights:** Leverages Gemini 1.5 Flash to summarize actionable recommendations.
 * **Modern UI:** Clean, responsive interface built with Tailwind CSS and Lucide Icons.
 * **Secure Backend:** API keys are safely hidden server-side using Next.js Route Handlers.
+  
+## 🔒 Security Architecture
 
-## 🚀 Getting Started
+To protect sensitive data and prevent unauthorized API consumption, this dashboard enforces a strict separation of concerns:
+
+* **Server-Side Key Isolation:** All third-party API keys and compliance validation tokens are strictly confined to the backend environment variables (`.env`).
+* **Zero Client Exposure:** The frontend never makes direct calls to external compliance APIs. Instead, it routes requests through our secure backend proxy controllers.
+* **Payload Sanitation:** Incoming data is validated and sanitized server-side before being rendered on the dashboard to mitigate XSS vulnerabilities.
+## 💻 Development & Environment Portability
+
+This project is fully optimized for **GitHub Codespaces**. You can spin up a complete, isolated development environment in the cloud without installing dependencies locally.
+
+### Quick Start with Codespaces
+1. Click the **Code** button on this repository.
+2. Select the **Codespaces** tab.
+3. Click **Create codespace on main**.
+4. Once the container builds, create a `.env` file in the root directory using `.env.example` as a template, then run:
+   ```bash
+   npm install  # Or your specific package manager command
+   npm start
 
 ### Prerequisites
 Make sure you have Node.js installed and a valid Google Gemini API key.
