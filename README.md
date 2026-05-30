@@ -2,13 +2,23 @@
 
 <div align="center">
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/29shnick/Compliance-Safety-Dashboard?style=flat-square&color=blue)](https://github.com/29shnick/Compliance-Safety-Dashboard/releases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/29shnick/Compliance-Safety-Dashboard?style=flat-square&color=green)](https://github.com/29shnick/Compliance-Safety-Dashboard/commits/main)
+[![GitHub open issues](https://img.shields.io/github/issues/29shnick/Compliance-Safety-Dashboard?style=flat-square&color=orange)](https://github.com/29shnick/Compliance-Safety-Dashboard/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
+<br />
+
 [![GitHub Codespaces](https://img.shields.io/badge/GitHub%20Codespaces-Compatible-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codespaces)
-[![Security](https://img.shields.io/badge/Security-Server--Side%20Keys-blueviolet?style=for-the-badge&logo=dependabot&logoColor=white)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Security: Server-Side](https://img.shields.io/badge/Security-Server--Side%20Keys-blueviolet?style=for-the-badge&logo=dependabot&logoColor=white)](#-security-architecture)
 
 </div>
 
-An enterprise-grade compliance tracking dashboard built with modern security best practices.
+---
+
+## 📋 Overview
+
+The **Compliance Safety Dashboard** is a secure, enterprise-ready application designed to monitor and manage organizational compliance metrics. Built with environment portability and strict security protocols in mind, this project isolates sensitive API operations server-side to prevent client-side exposure.
 
 # 🛡️ Compliance & Safety Dashboard
 
