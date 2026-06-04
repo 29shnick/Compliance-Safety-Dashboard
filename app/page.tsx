@@ -73,7 +73,7 @@ export default function Dashboard() {
           {!analysis && !isLoading && !error && (
             <div className="text-center text-slate-400 py-12">
               <Activity className="w-12 h-12 mx-auto mb-3 opacity-20" />
-    <p>Click "Run Audit" to generate the latest compliance insights.</p>
+              <p>Click &quot;Run Audit&quot; to generate the latest compliance insights.</p>
             </div>
           )}
           {isLoading && (
